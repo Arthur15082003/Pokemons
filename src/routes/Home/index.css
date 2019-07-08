@@ -1,0 +1,101 @@
+@import '~antd/dist/antd.css';
+
+.main {
+  height: 100%;
+  width: 70%;
+}
+
+.body {
+  background-color: #F6F6F6;
+  padding-bottom: 20px; 
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.pokemonsList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pokemonsList .image {
+  height: 200px;
+  width: 200px;
+}
+
+.selectedButton {
+  background-color: black;
+  color: #fff;
+}
+
+.pokemon {
+  margin-left: '30px';
+}
+
+.pokemon:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.red {
+  background-color: #FF0000;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  height: 30%;
+  text-align: center;
+  width: 40%;
+}
+
+.blue {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 30%;
+  text-align: center;
+  background-color: #00B4AB;
+  width: 40%;
+}
+
+.spin {
+  text-align: center;
+  height: 100%;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.bold {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.number {
+  margin-left: 10px;
+}
+
+.number:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+

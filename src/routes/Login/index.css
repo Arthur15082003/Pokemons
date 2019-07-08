@@ -1,0 +1,5 @@
+@import '~antd/dist/antd.css';
+
+.wrongLogin {
+  color: #f5222d;
+}
